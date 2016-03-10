@@ -14,3 +14,22 @@ header > h1 {
   margin: 0, 0, 40px, 0;
   text-align: center;
 }
+
+header > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+ul > li {
+  float: left;
+  margin: 0 5px;
+}
+
+li > a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 100;
+  text-decoration: none;
+}
