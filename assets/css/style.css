@@ -23,7 +23,7 @@ header > ul {
 }
 
 ul > li {
-  float: left;
+  display: inline;
   margin: 0 5px;
 }
 
