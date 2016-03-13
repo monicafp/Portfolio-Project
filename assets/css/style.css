@@ -60,3 +60,14 @@ section > h3 {
 #about > div > img {
   width: 90%;
 }
+
+#projects > figure {
+  display: inline-block;
+  margin: 0px;
+  padding: 0px 140px;
+}
+
+#projects > figure > figcaption {
+  margin-top: 40px;
+  text-align: center;
+}
