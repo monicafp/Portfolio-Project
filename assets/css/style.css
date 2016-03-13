@@ -2,9 +2,15 @@ body {
   margin: 0;
 }
 
+main {
+  padding-top: 180px;
+}
+
 header {
   background-color: #F1634F;
-  padding: 67px;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
 }
 
 header > h1 {
@@ -61,13 +67,18 @@ section > h3 {
   width: 90%;
 }
 
-#projects > figure {
+section > figure {
   display: inline-block;
+  height: 359px;
   margin: 0px;
   padding: 0px 140px;
 }
 
-#projects > figure > figcaption {
+section > figure > figcaption {
   margin-top: 40px;
   text-align: center;
+}
+
+#MSM-caption {
+  margin: 0px;
 }
