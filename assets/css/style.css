@@ -2,9 +2,15 @@ body {
   margin: 0;
 }
 
+main {
+  padding-top: 180px;
+}
+
 header {
   background-color: #F1634F;
-  padding: 67px;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
 }
 
 header > h1 {
@@ -46,12 +52,6 @@ section > h3 {
   border-bottom: 1px solid #D2D2D2;
 }
 
-#about > p {
-  float: right;
-  margin-top: 0px;
-  width: 60%;
-}
-
 #about > div {
   display: inline-block;
   width: 40%;
@@ -61,13 +61,27 @@ section > h3 {
   width: 90%;
 }
 
-#projects > figure {
-  display: inline-block;
-  margin: 0px;
-  padding: 0px 140px;
+#about > p {
+  float: right;
+  margin-top: 0px;
+  width: 60%;
 }
 
-#projects > figure > figcaption {
+#projects > div, #education > div {
+  display: inline-block;
+  padding: 0 150px;
+}
+
+section > div > figure {
+  height: 359px;
+  margin: 0px;
+}
+
+section > div > figure > figcaption {
   margin-top: 40px;
   text-align: center;
+}
+
+#MSM-caption {
+  margin: 0px;
 }
