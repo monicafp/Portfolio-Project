@@ -42,8 +42,13 @@ section > h3 {
   margin: 0 0 40px 0;
 }
 
+.section-border-bottom {
+  border-bottom: 1px solid #D2D2D2;
+}
+
 #about > p {
   float: right;
+  margin-top: 0px;
   width: 60%;
 }
 
