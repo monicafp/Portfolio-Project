@@ -2,9 +2,15 @@ body {
   margin: 0;
 }
 
+main {
+  padding-top: 180px;
+}
+
 header {
   background-color: #F1634F;
-  padding: 67px;
+  padding: 20px;
+  width: 100%;
+  position: fixed;
 }
 
 header > h1 {
@@ -46,12 +52,6 @@ section > h3 {
   border-bottom: 1px solid #D2D2D2;
 }
 
-#about > p {
-  float: right;
-  margin-top: 0px;
-  width: 60%;
-}
-
 #about > div {
   display: inline-block;
   width: 40%;
@@ -66,7 +66,18 @@ section > h3 {
   padding: 0 110px;
 }
 
-div > figure > figcaption {
+#about > p {
+  float: right;
+  margin-top: 0px;
+  width: 60%;
+}
+
+section > div > figure {
+  height: 359px;
+  margin: 0px;
+}
+
+section > div > figure > figcaption {
   margin-top: 40px;
   text-align: center;
 }
