@@ -85,3 +85,27 @@ section > div > figure > figcaption {
 #MSM-caption {
   margin: 0px;
 }
+
+#footer {
+  background-color: #F1634F;
+  height: 60px;
+  margin: 0px;
+  text-align: center;
+}
+
+.emailicon, .githubicon {
+  padding: 15px 10px;
+  width: 45px;
+}
+/*
+a.emailicon, a.githubicon {
+    display: inline-block;
+    text-decoration: none;
+    padding: 15px;
+}
+*/
+/*
+a.githubicon {
+    display: inline-block;
+    text-decoration: none;
+}*/
