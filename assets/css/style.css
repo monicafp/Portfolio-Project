@@ -2,10 +2,6 @@ body {
   margin: 0;
 }
 
-main {
-  padding-top: 180px;
-}
-
 header {
   background-color: #F1634F;
   padding: 20px;
@@ -28,16 +24,15 @@ header > ul {
   text-align: center;
 }
 
-ul > li {
-  display: inline;
-  margin: 0 5px;
-}
-
 li > a {
   color: #ffffff;
   font-size: 18px;
   font-weight: 100;
   text-decoration: none;
+}
+
+main {
+  padding-top: 180px;
 }
 
 section {
@@ -46,6 +41,26 @@ section {
 
 section > h3 {
   margin: 0 0 40px 0;
+}
+
+section > div > figure {
+  height: 359px;
+  margin: 0px;
+}
+
+section > div > figure > figcaption {
+  margin-top: 40px;
+  text-align: center;
+}
+
+ul > li {
+  display: inline;
+  margin: 0 5px;
+}
+
+.emailicon, .githubicon {
+  padding: 15px;
+  width: 45px;
 }
 
 .section-border-bottom {
@@ -67,45 +82,17 @@ section > h3 {
   width: 60%;
 }
 
-#projects > div, #education > div {
+#education > div, #projects > div {
   display: inline-block;
   padding: 0 150px;
 }
 
-section > div > figure {
-  height: 359px;
-  margin: 0px;
-}
-
-section > div > figure > figcaption {
-  margin-top: 40px;
-  text-align: center;
-}
-
-#MSM-caption {
-  margin: 0px;
-}
-
 #footer {
   background-color: #F1634F;
-  height: 60px;
-  margin: 0px;
+  padding: 15px;
   text-align: center;
 }
 
-.emailicon, .githubicon {
-  padding: 15px 10px;
-  width: 45px;
+#msm-caption {
+  margin: 0px;
 }
-/*
-a.emailicon, a.githubicon {
-    display: inline-block;
-    text-decoration: none;
-    padding: 15px;
-}
-*/
-/*
-a.githubicon {
-    display: inline-block;
-    text-decoration: none;
-}*/
